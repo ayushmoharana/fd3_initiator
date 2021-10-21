@@ -17,6 +17,7 @@ Required packages and software:
 4.numpy [python] 
 
 Use chmod +x fd3 to make the code an executable and then use the main code (run_fd3.py).
+
 --- HOW TO USE ----------
 =========================
 
