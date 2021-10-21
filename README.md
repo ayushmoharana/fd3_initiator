@@ -21,9 +21,7 @@ Use chmod +x fd3 to make the code an executable and then use the main code (run_
 --- HOW TO USE ----------
 =========================
 
-1. Copy the spectra from different epochs to the spectra/ folder named in order of epoch 
-(you can simply name them as "target_1.spectra,target_2.spectra,.." or "A.spectra,B.spectra,...") with extension 
-".spectra". We assume that your spectra file has two columns : wavelength (in Angstrom) and normalised flux. 
+1. Copy the spectra from different epochs to the spectra/ folder named in order of epoch. We assume that your spectra file has two columns : wavelength (in log(Angstrom)) and normalised flux. 
 
 2. The required parameters and settings for the disentangling process are initialised in paramfile.ini.
 
