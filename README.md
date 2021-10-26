@@ -37,5 +37,4 @@ Use chmod +x fd3 (or fd3_log10) to make the code an executable and then use the 
 5. Output files are generated named as the file identifier mentioned in paramfile.ini, with different 
 extensions.
 
-6
-The disentangled spectra models (in rest frame) are in the .mod file. 
+6. The disentangled spectra models (in rest frame) are in the .mod file and RVs in .rvs file. 
