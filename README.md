@@ -16,7 +16,7 @@ Required packages and software:
 
 4.numpy [python] 
 
-To use fd3 in log of base 10 (skip this if the executable fd3_log10 works):
+To use fd3 in log of base 10, do this in corrected_fd3_routines (skip this if the executable fd3_log10 works):
 >gcc fd3fpolis_log10.c fd3sep.c triorb.c kepler.c mxfuns.c -lgsl -lm -lgslcblas -o fd3_log10
 
 Copy fd3_log10 executable to raw_fd3_output.
