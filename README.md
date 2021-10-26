@@ -1,7 +1,7 @@
 --- DOCUMENTATION FOR USING fd3_initiator -----
 ====================================================================================
 
-fd3_initiator is a python wrapper around the code fd3 (http://sail.zpf.fer.hr/fdbinary/) for spectral disentangling.
+fd3_initiator is a python wrapper around the code fd3 (http://sail.zpf.fer.hr/fdbinary/, cite: https://ui.adsabs.harvard.edu/abs/2004ASPC..318..111I/abstract) for spectral disentangling.
 The aim of this code was to provide a user-friendly way of using fd3. This code takes care 
 of creating the master observation file and input files in the required format and runs fd3 
 using these files. Some corrections were added to the main fd3 executable to make it work for log of base 10 sampling.
