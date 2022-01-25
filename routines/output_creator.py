@@ -53,14 +53,14 @@ for i in range(len(t)):
 		
 os.chdir('../output/')
 if int(param[5])==0:
-	np.savetxt(modelfile+'.out',mod_speclist,header="WV(Ang)	Flux_A	Flux_B",delimiter='	',fmt="%.8f")
+	np.savetxt(modelfile+'.out',mod_speclist,header="WV_ang	Flux_A	Flux_B",delimiter='	',fmt="%.8f")
 if int(param[5])==1:
-	np.savetxt(modelfile+'.out',mod_speclist,header="WV(Ang)	Flux_A	Flux_B	Flux_C",delimiter='	',fmt="%.8f")
+	np.savetxt(modelfile+'.out',mod_speclist,header="WV_ang	Flux_A	Flux_B	Flux_C",delimiter='	',fmt="%.8f")
 
 if int(param[5])==0:
-	np.savetxt(rvfile+'.out',rvlist,header="T(day)	RV_A	RV_B",delimiter='	',fmt="%.8f")
+	np.savetxt(rvfile+'.out',rvlist,header="time	RV_A	RV_B",delimiter='	',fmt="%.8f")
 if int(param[5])==1:
-	np.savetxt(rvfile+'.out',rvlist,header="T(dat)	RV_A	RV_B	RV_C",delimiter='	',fmt="%.8f")
+	np.savetxt(rvfile+'.out',rvlist,header="time	RV_A	RV_B	RV_C",delimiter='	',fmt="%.8f")
 
 with open(rvfile+'.out',"a+") as file_object:
 	file_object.write("\n")
