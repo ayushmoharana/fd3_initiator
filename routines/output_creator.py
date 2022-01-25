@@ -62,3 +62,6 @@ if int(param[5])==0:
 if int(param[5])==1:
 	np.savetxt(rvfile+'.out',rvlist,header="T(dat)	RV_A	RV_B	RV_C",delimiter='	',fmt="%.8f")
 
+with open(rvfile+'.out',"a+") as file_object:
+	file_object.write("\n")
+	file_object.write("# Multiply the RV step per bin (check output on the terminal or the file) to the RVs to get physical values")
