@@ -30,7 +30,7 @@ Use chmod +x fd3 (or fd3_log10) to make the code an executable and then use the 
 
 2. The required parameters and settings for the disentangling process are initialised in paramfile.ini.
 
-3. The RVs at each epoch and the light fraction (LF) are input as a table in the param_table.ini file.
+3. The epoch of the spectra, heliocentric corrections, weight of the spectra and the light fraction (LF) are input as a table in the param_table.ini file.
 
 4. Run "python run_fd3.py" in the terminal inside the folder.
 
