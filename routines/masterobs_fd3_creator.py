@@ -29,7 +29,7 @@ for file in glob.glob("*.*"):
 			fex_r.append(fex[i])	
 	wv.append(wex_r)
 	flx.append(fex_r)
-	
+filelist=np.sort(filelist)		
 wv=np.asarray(wv)
 flx=np.asarray(flx)	
 
