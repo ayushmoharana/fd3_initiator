@@ -20,7 +20,10 @@ os.chdir(filefolder)
 #Look for spectra in the folder
 for file in glob.glob("*.*"):
 	filelist.append(file)
-	wex,fex=np.loadtxt(file,usecols=(0,1),unpack=True)
+filelist=np.sort(filelist)
+
+for i in range(len(filelist)):
+	wex,fex=np.loadtxt(filelist[i],usecols=(0,1),unpack=True)
 	wex_r=[]
 	fex_r=[]
 	for i in range(len(wex)):
@@ -29,7 +32,7 @@ for file in glob.glob("*.*"):
 			fex_r.append(fex[i])	
 	wv.append(wex_r)
 	flx.append(fex_r)
-filelist=np.sort(filelist)		
+		
 wv=np.asarray(wv)
 flx=np.asarray(flx)	
 
