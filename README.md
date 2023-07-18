@@ -6,6 +6,11 @@ The aim of this code was to provide a user-friendly way of running fd3. This cod
 of creating the master observation file and input files in the required format and runs fd3 
 using these files. Some corrections were added to the main fd3 executable to make it work for log of base 10 sampling.
 
+This wrapper was used in:
+1. Moharana et al., 2023, MNRAS (https://ui.adsabs.harvard.edu/abs/2023MNRAS.521.1908M/abstract)
+2. Kahraman Aliçavuş et al.,2023, MNRAS (https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.1601K/abstract)
+3. Rozyczka et al., 2022, MNRAS (https://ui.adsabs.harvard.edu/abs/2022MNRAS.517.2485R/abstract)
+
 Required packages and software:
 
 1.GNU scientific Library for fd3
